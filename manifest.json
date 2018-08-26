@@ -1,0 +1,6 @@
+{
+  "name": "Old Reddit Router",
+  "version": "1.0",
+  "description": "Re-routes new reddit to the old reddit automatically",
+  "manifest_version": 2
+}
