@@ -3,8 +3,7 @@
   "version": "1.0.0",
   "description": "Re-routes new reddit to the old reddit automatically",
   "background": {
-    "scripts": ["background.js"],
-    "persistent": true
+    "scripts": ["background.js"]
   },
   "manifest_version": 2,
   "permissions": [
@@ -12,5 +11,5 @@
   "*://www.reddit.com/*",
   "*://reddit.com/*",
   "webRequestBlocking"
-  ],
+  ]
 }

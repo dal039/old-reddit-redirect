@@ -1,5 +1,5 @@
-var host = "https://old.reddit.com"
-var regex = /^https?:\/\/(?:www.reddit.com|reddit.com)([\S\s]*)/
+const host = "https://old.reddit.com"
+const regex = /^https?:\/\/(?:www.reddit.com|reddit.com)([\S\s]*)/
 
 chrome.webRequest.onBeforeRequest.addListener(
   function(details){
