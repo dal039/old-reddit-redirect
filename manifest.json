@@ -1,6 +1,16 @@
 {
-  "name": "Old Reddit Router",
-  "version": "1.0",
+  "name": "Old Reddit Redirect",
+  "version": "1.0.0",
   "description": "Re-routes new reddit to the old reddit automatically",
-  "manifest_version": 2
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": true
+  },
+  "manifest_version": 2,
+  "permissions": [
+  "webRequest",
+  "*://www.reddit.com/*",
+  "*://reddit.com/*",
+  "webRequestBlocking"
+  ],
 }
